@@ -11,7 +11,7 @@ local Main = window:AddTab("Main")
         Main:AddLabel("Discord Server:")
  
         Main:AddButton("Copy Link", function()
-            setclipboard("https://discord.gg/wMtx6xdJuz")
+            setclipboard("")
         end)
  
         Main:AddLabel("Local Player")
